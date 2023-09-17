@@ -1,4 +1,4 @@
-package com.yoon;
+package com.yoon.redis;
 
 import org.junit.jupiter.api.Tag;
 import org.springframework.boot.test.context.TestConfiguration;

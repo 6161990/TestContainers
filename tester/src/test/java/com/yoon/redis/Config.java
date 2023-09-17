@@ -1,4 +1,4 @@
-package com.yoon;
+package com.yoon.redis;
 
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Import;
  */
 @EnableAutoConfiguration
 @SpringBootConfiguration
-@Import({ ImdgConfig.class, RedisAutoConfiguration.class })
+@Import({ RedisConfig.class, RedisAutoConfiguration.class })
 @ComponentScan(excludeFilters = @ComponentScan.Filter(type = FilterType.CUSTOM, classes = TypeExcludeFilter.class))
 public class Config {
 }
